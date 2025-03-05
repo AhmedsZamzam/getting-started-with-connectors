@@ -138,7 +138,7 @@ Clone Confluent's Commercial SE workshop repository to your machine to access us
  
 ```bash 
 # navigate to the correct sub-folder
-cd commercial-workshops/series-getting-started-with-cc/workshop-connectors/
+cd getting-started-with-connectors/
 ```
 
 
