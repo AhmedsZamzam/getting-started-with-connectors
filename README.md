@@ -183,7 +183,7 @@ By the conclusion of the workshop, you will have learned how to leverage both se
 # <div align="center">Technical Overview</div>
 
 ---
-The only files needed to provision infrastructure  for the Demo are **setup.properties** and  **docker-compose.yml**; they are found in the `commercial-workshops/series-getting-started-with-cc/workshop-connectors` directory of this project.
+The only files needed to provision infrastructure  for the Demo are **setup.properties** and  **docker-compose.yml**; they are found in the `getting-started-with-connectors/` directory of this project.
 
 You will use **setup.properties** in order to export configs from your Confluent Cloud account as environment variables for three containers: `connect`, `control-center`, and `postgres` that will be managed via the **docker-compose.yml** file.
 
@@ -403,22 +403,13 @@ This topic is the name of a tables within the Postgres database that will be tra
 
 ---
 
-1. Ensure you have the demo GitHub downloaded
 
-    **Note:** you should have already cloned the repository during the Prerequisites step. If you have not, start by cloning Confluent's Commercial SE workshop repository.
-
+1. Navigate to the sub-directory for this lab.
     ```bash
-    # Clone Confluent's Commercial SE Workshop repo
-    git clone https://github.com/confluentinc/commercial-workshops
+    cd getting-started-with-connectors/
     ```
 
-2. Navigate to the sub-directory for this lab.
-    ```bash
-    # Navigate to 'workshop-connectors'
-    cd commercial-workshops/series-getting-started-with-cc/workshop-connectors
-    ```
-
-3. Configure relevant variables in `setup.properties`
+2. Configure relevant variables in `setup.properties`
 
     * Open the `setup.properties` file 
     * Set the following properties in the file to variables you have already created; other variables remain unchanged
