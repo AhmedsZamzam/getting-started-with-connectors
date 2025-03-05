@@ -131,8 +131,8 @@ Clone Confluent's Commercial SE workshop repository to your machine to access us
 > **Note:** This repository contains **all** of the workshops and workshop series Confluent's Commercial SE team has created. Be sure to navigate to the correct sub-folder to use the right content.
 
  ```bash
- # clone the Commercial SE workshop repository
- git clone https://github.com/confluentinc/commercial-workshops.git
+ # clone the workshop repository
+ git clone git@github.com:AhmedsZamzam/getting-started-with-connectors.git
  ```
  Navigate to the correct sub-folder to access this labs content. This should act as your working directory for the remainder of the lab. 
  
